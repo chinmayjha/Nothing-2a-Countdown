@@ -27,7 +27,7 @@ body {
 }
 
 h2 {
-    top: 160px;
+    top: 32px;
     font-size: 7rem;
     position: relative;
     font-family: "Raleway Dots", sans-serif;
@@ -45,7 +45,7 @@ h3 {
 h4 {
     font-size: 4rem;
     position: relative;
-    top: 4rem;
+    top: -4rem;
     right: 7rem;
 }
 
@@ -142,4 +142,32 @@ img {
         right: -3rem;
         width: 31rem;
     }
+}
+
+.flipkart-btn {
+    display: inline;
+    background-color: #2874f0;
+    color: #fff;
+    position: relative;
+    padding: 14px 32px;
+    text-decoration: none;
+    border-radius: 5px;
+    top: -9rem;
+    left: -8rem;
+}
+
+.flipkart-btn img {
+    width: 36px;
+    vertical-align: middle;
+    margin-right: 5px;
+    top: 3px;
+    right: 117px;
+}
+
+.flipkart-btn:hover {
+    background-color: #3a5ba6;
+}
+.button {
+    position: relative;
+    right: -18px;
 }
